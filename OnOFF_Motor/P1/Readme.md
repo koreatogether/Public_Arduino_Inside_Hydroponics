@@ -1,38 +1,13 @@
-/*
-  Example testing sketch for various DHT humidity/temperature sensors
-  DHT CODE Written by ladyada, public domain
+# OnOff 시간조절 및 모터 작동
 
-  밀리함수 컨트롤 코드는 https://blog.naver.com/damtaja/220992246602
-  by 해바우
-
-  화면 반전은 u8g.setRot180() 함수를 사용하여 할 수 있습니다.
-  가변저항 값에 따라서 ON 시간 , OFF 시간을 지정하여
-  모터 가동 시간을 정할수 있습니다.
-
-  The circuit :
-    각 input에 연결되어있는 구성 요소의 목록
-
-    각 output에 연결되어있는 구성 요소의 목록
-    수중펌프 ap201
-    모터 드라이버 - L9110 모듈 2채널  ,  채널당 최대 700mA
-
-  pwm 제어
-  Created 연월일
-  By iot발걸음
-  Modified 날짜
-  By iot발걸음
-
-  V01 스케치에서
-  V02 스케치 테스트중 , 차이는 가변 저항을 2개이용한다.
-  22-08-31 아두이노스토리 카페 회원분들 조언에 따라  시 . 분 계산 코드를 변경한다.
-           폐기된 코드는 맨 아래에 모아둠
-           https://wokwi.com/projects/341468870682346066
-  V03 여러 카페에 올려서 조언 받기 심화 버전
-    아두이노 연구회 카페에선  출력용 아니면  second 계산이 어떤하지 와 
-    스타트 , 정지 버튼도 고려하면 좋지 않나 라는 댓글이 달렸습니다. 
-
-    코드 등록 블로그 : https://togetherfactory.tistory.com/4
-    
+### 구성 파일
+          - OnOff_Motor_P01_V03 다이어그램 ==> 흐름도 무료 사이트 https://app.diagrams.net/
+          - OnOff_Motor_P01_V03 영상제작소 ==> 영상 제작 프로젝트 구성 확장자
+          - OnOff_Motor_P01_V03 프리츠 ==> fritzing 전자부품 회로도 그리기 프로그램 확장자
+          - OnOff_Motor_P01_V03 회로도 ==> fritzing를 통해서 그린 회로도 그림
+          - OnOff_Motor_P01_V03 흐름도 ==> DrawIo 사이트를 통해 그린 흐름도 그림
+          - OnOff_Motor_P01_V03.ino ==> 아두이노 스케치
+          
 
   Lisence : 
   The MIT License

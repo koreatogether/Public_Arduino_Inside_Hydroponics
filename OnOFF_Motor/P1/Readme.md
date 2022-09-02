@@ -10,7 +10,7 @@
 
 ## 모든 파일 한번에 받기 
    - [압축파일받기] https://github.com/koreatogether/Public_Arduino_Inside_Hydroponics/raw/main/OnOFF_Motor/P1/OnOff_Motor_P01_V03.zip
-   - 초록색 View Raw 을 누르시거나 오른족에 다운로드 버튼 누르시면 됩니다. 
+   
           
 
   Lisence : 

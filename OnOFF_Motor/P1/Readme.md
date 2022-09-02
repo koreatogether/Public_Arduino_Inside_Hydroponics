@@ -9,7 +9,7 @@
           - OnOff_Motor_P01_V03.ino ==> 아두이노 스케치
 
 ## 모든 파일 한번에 받기 
-   - OnOff_Motor_P01_V03.zip
+   - [압축파일받기] https://github.com/koreatogether/Public_Arduino_Inside_Hydroponics/blob/main/OnOFF_Motor/P1/OnOff_Motor_P01_V03.zip
           
 
   Lisence : 
